@@ -1,0 +1,2708 @@
+
+/*******************************************************************************
+* font
+* filename: /home/andru/todo/lcd-fonts/Font8x13.xml
+* name: Font8x13
+* family: Liberation Mono
+* size: 14
+* style: Bold
+* included characters:  !"#$%&'()*+,-./0123456789:;<=>?\x0040ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+* antialiasing: no
+* type: proportional
+* encoding: ASCII
+* unicode bom: no
+*
+* preset name: ssd1306
+* data block size: 16 bit(s), uint16_t
+* RLE compression enabled: no
+* conversion type: Monochrome, Diffuse Dither 128
+* bits per pixel: 1
+*
+* preprocess:
+*  main scan direction: top_to_bottom
+*  line scan direction: forward
+*  inverse: yes
+*******************************************************************************/
+
+/*
+ typedef struct {
+     long int code;
+     const tImage *image;
+     } tChar;
+ typedef struct {
+     int length;
+     const tChar *chars;
+     } tFont;
+*/
+
+#include <stdint.h>
+#include "fonts.h"
+
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x20[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x20 = { image_data_Font8x13_0x20,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x21[13] = {
+    0x0000, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0000, 
+    0x0018, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x21 = { image_data_Font8x13_0x21,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x22[13] = {
+    0x006c, 
+    0x006c, 
+    0x006c, 
+    0x006c, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x22 = { image_data_Font8x13_0x22,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x23[13] = {
+    0x0000, 
+    0x0012, 
+    0x0012, 
+    0x007f, 
+    0x0024, 
+    0x0024, 
+    0x00fe, 
+    0x0048, 
+    0x0048, 
+    0x0048, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x23 = { image_data_Font8x13_0x23,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x24[13] = {
+    0x0008, 
+    0x003e, 
+    0x006b, 
+    0x0068, 
+    0x0068, 
+    0x003e, 
+    0x000b, 
+    0x000b, 
+    0x006b, 
+    0x003e, 
+    0x0008, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x24 = { image_data_Font8x13_0x24,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x25[13] = {
+    0x0000, 
+    0x0062, 
+    0x0094, 
+    0x0094, 
+    0x0098, 
+    0x0076, 
+    0x0019, 
+    0x0029, 
+    0x0029, 
+    0x0046, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x25 = { image_data_Font8x13_0x25,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x26[13] = {
+    0x0000, 
+    0x0038, 
+    0x006c, 
+    0x006c, 
+    0x0038, 
+    0x0073, 
+    0x00db, 
+    0x00ce, 
+    0x00ce, 
+    0x007b, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x26 = { image_data_Font8x13_0x26,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x27[13] = {
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x27 = { image_data_Font8x13_0x27,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x28[13] = {
+    0x000c, 
+    0x0018, 
+    0x0018, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0018, 
+    0x0018, 
+    0x000c
+};
+static const tImage Font8x13_0x28 = { image_data_Font8x13_0x28,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x29[13] = {
+    0x0060, 
+    0x0030, 
+    0x0030, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0030, 
+    0x0030, 
+    0x0060
+};
+static const tImage Font8x13_0x29 = { image_data_Font8x13_0x29,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x2a[13] = {
+    0x0010, 
+    0x0054, 
+    0x007c, 
+    0x0028, 
+    0x006c, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x2a = { image_data_Font8x13_0x2a,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x2b[13] = {
+    0x0000, 
+    0x0000, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x00fe, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x2b = { image_data_Font8x13_0x2b,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x2c[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0018, 
+    0x0018, 
+    0x0030, 
+    0x0030, 
+    0x0000
+};
+static const tImage Font8x13_0x2c = { image_data_Font8x13_0x2c,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x2d[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x2d = { image_data_Font8x13_0x2d,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x2e[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0030, 
+    0x0030, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x2e = { image_data_Font8x13_0x2e,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x2f[13] = {
+    0x0002, 
+    0x0004, 
+    0x0004, 
+    0x0008, 
+    0x0008, 
+    0x0010, 
+    0x0010, 
+    0x0020, 
+    0x0020, 
+    0x0040, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x2f = { image_data_Font8x13_0x2f,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x30[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0066, 
+    0x006e, 
+    0x006e, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x30 = { image_data_Font8x13_0x30,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x31[13] = {
+    0x0000, 
+    0x0018, 
+    0x0038, 
+    0x0058, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x007e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x31 = { image_data_Font8x13_0x31,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x32[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0006, 
+    0x0006, 
+    0x000c, 
+    0x0018, 
+    0x0030, 
+    0x0060, 
+    0x007e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x32 = { image_data_Font8x13_0x32,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x33[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0006, 
+    0x0006, 
+    0x001c, 
+    0x0006, 
+    0x0006, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x33 = { image_data_Font8x13_0x33,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x34[13] = {
+    0x0000, 
+    0x000c, 
+    0x001c, 
+    0x001c, 
+    0x002c, 
+    0x002c, 
+    0x006c, 
+    0x007e, 
+    0x000c, 
+    0x000c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x34 = { image_data_Font8x13_0x34,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x35[13] = {
+    0x0000, 
+    0x007e, 
+    0x0060, 
+    0x0060, 
+    0x007c, 
+    0x0066, 
+    0x0006, 
+    0x0006, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x35 = { image_data_Font8x13_0x35,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x36[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0060, 
+    0x007c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x36 = { image_data_Font8x13_0x36,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x37[13] = {
+    0x0000, 
+    0x007e, 
+    0x0006, 
+    0x000c, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x37 = { image_data_Font8x13_0x37,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x38[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x38 = { image_data_Font8x13_0x38,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x39[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003e, 
+    0x0006, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x39 = { image_data_Font8x13_0x39,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x3a[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0030, 
+    0x0030, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0030, 
+    0x0030, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x3a = { image_data_Font8x13_0x3a,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x3b[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0018, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0018, 
+    0x0018, 
+    0x0030, 
+    0x0030, 
+    0x0000
+};
+static const tImage Font8x13_0x3b = { image_data_Font8x13_0x3b,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x3c[13] = {
+    0x0000, 
+    0x0000, 
+    0x0002, 
+    0x000c, 
+    0x0030, 
+    0x0040, 
+    0x0030, 
+    0x000c, 
+    0x0002, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x3c = { image_data_Font8x13_0x3c,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x3d[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x007e, 
+    0x0000, 
+    0x0000, 
+    0x007e, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x3d = { image_data_Font8x13_0x3d,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x3e[13] = {
+    0x0000, 
+    0x0000, 
+    0x0040, 
+    0x0030, 
+    0x000c, 
+    0x0002, 
+    0x000c, 
+    0x0030, 
+    0x0040, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x3e = { image_data_Font8x13_0x3e,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x3f[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0066, 
+    0x0006, 
+    0x000c, 
+    0x0018, 
+    0x0000, 
+    0x0018, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x3f = { image_data_Font8x13_0x3f,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x40[13] = {
+    0x0038, 
+    0x0044, 
+    0x0082, 
+    0x0096, 
+    0x00aa, 
+    0x00aa, 
+    0x00aa, 
+    0x00aa, 
+    0x009c, 
+    0x0080, 
+    0x0044, 
+    0x0038, 
+    0x0000
+};
+static const tImage Font8x13_0x40 = { image_data_Font8x13_0x40,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x41[13] = {
+    0x0000, 
+    0x0038, 
+    0x0038, 
+    0x006c, 
+    0x006c, 
+    0x006c, 
+    0x007c, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x41 = { image_data_Font8x13_0x41,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x42[13] = {
+    0x0000, 
+    0x00fc, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00f8, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00fc, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x42 = { image_data_Font8x13_0x42,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x43[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x00c6, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00c6, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x43 = { image_data_Font8x13_0x43,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x44[13] = {
+    0x0000, 
+    0x00f8, 
+    0x00cc, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00cc, 
+    0x00f8, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x44 = { image_data_Font8x13_0x44,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x45[13] = {
+    0x0000, 
+    0x00fe, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00fc, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00fe, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x45 = { image_data_Font8x13_0x45,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x46[13] = {
+    0x0000, 
+    0x007e, 
+    0x0060, 
+    0x0060, 
+    0x0060, 
+    0x007c, 
+    0x0060, 
+    0x0060, 
+    0x0060, 
+    0x0060, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x46 = { image_data_Font8x13_0x46,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x47[13] = {
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x00c6, 
+    0x00c0, 
+    0x00de, 
+    0x00c6, 
+    0x00c6, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x47 = { image_data_Font8x13_0x47,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x48[13] = {
+    0x0000, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00fe, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x48 = { image_data_Font8x13_0x48,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x49[13] = {
+    0x0000, 
+    0x007e, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x007e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x49 = { image_data_Font8x13_0x49,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x4a[13] = {
+    0x0000, 
+    0x003c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x00cc, 
+    0x00cc, 
+    0x0078, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x4a = { image_data_Font8x13_0x4a,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x4b[13] = {
+    0x0000, 
+    0x00c6, 
+    0x00cc, 
+    0x00d8, 
+    0x00f0, 
+    0x00f0, 
+    0x00d8, 
+    0x00cc, 
+    0x00cc, 
+    0x00c6, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x4b = { image_data_Font8x13_0x4b,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x4c[13] = {
+    0x0000, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00fe, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x4c = { image_data_Font8x13_0x4c,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x4d[13] = {
+    0x0000, 
+    0x00c6, 
+    0x00c6, 
+    0x00ee, 
+    0x00ee, 
+    0x00ee, 
+    0x00d6, 
+    0x00d6, 
+    0x00c6, 
+    0x00c6, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x4d = { image_data_Font8x13_0x4d,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x4e[13] = {
+    0x0000, 
+    0x00c6, 
+    0x00e6, 
+    0x00e6, 
+    0x00d6, 
+    0x00d6, 
+    0x00ce, 
+    0x00ce, 
+    0x00c6, 
+    0x00c6, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x4e = { image_data_Font8x13_0x4e,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x4f[13] = {
+    0x0000, 
+    0x0038, 
+    0x006c, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x006c, 
+    0x0038, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x4f = { image_data_Font8x13_0x4f,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x50[13] = {
+    0x0000, 
+    0x00fc, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00fc, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x00c0, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x50 = { image_data_Font8x13_0x50,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x51[13] = {
+    0x0000, 
+    0x0038, 
+    0x006c, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x006c, 
+    0x003c, 
+    0x0018, 
+    0x0008, 
+    0x0006
+};
+static const tImage Font8x13_0x51 = { image_data_Font8x13_0x51,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x52[13] = {
+    0x0000, 
+    0x00fc, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00f8, 
+    0x00d8, 
+    0x00cc, 
+    0x00cc, 
+    0x00c6, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x52 = { image_data_Font8x13_0x52,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x53[13] = {
+    0x0000, 
+    0x007c, 
+    0x00c6, 
+    0x00c6, 
+    0x00e0, 
+    0x007c, 
+    0x000e, 
+    0x00c6, 
+    0x00c6, 
+    0x007c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x53 = { image_data_Font8x13_0x53,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x54[13] = {
+    0x0000, 
+    0x007e, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x54 = { image_data_Font8x13_0x54,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x55[13] = {
+    0x0000, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x007c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x55 = { image_data_Font8x13_0x55,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x56[13] = {
+    0x0000, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x006c, 
+    0x006c, 
+    0x006c, 
+    0x006c, 
+    0x0038, 
+    0x0038, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x56 = { image_data_Font8x13_0x56,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x57[13] = {
+    0x0000, 
+    0x00c6, 
+    0x00c6, 
+    0x00c6, 
+    0x00d6, 
+    0x00d6, 
+    0x0054, 
+    0x006c, 
+    0x006c, 
+    0x006c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x57 = { image_data_Font8x13_0x57,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x58[13] = {
+    0x0000, 
+    0x00c6, 
+    0x006c, 
+    0x006c, 
+    0x0038, 
+    0x0010, 
+    0x0038, 
+    0x006c, 
+    0x006c, 
+    0x00c6, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x58 = { image_data_Font8x13_0x58,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x59[13] = {
+    0x0000, 
+    0x0066, 
+    0x0066, 
+    0x0024, 
+    0x003c, 
+    0x003c, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x59 = { image_data_Font8x13_0x59,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x5a[13] = {
+    0x0000, 
+    0x00fe, 
+    0x0006, 
+    0x000c, 
+    0x0018, 
+    0x0018, 
+    0x0030, 
+    0x0060, 
+    0x00c0, 
+    0x00fe, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x5a = { image_data_Font8x13_0x5a,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x5b[13] = {
+    0x001e, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x001e
+};
+static const tImage Font8x13_0x5b = { image_data_Font8x13_0x5b,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x5c[13] = {
+    0x0040, 
+    0x0020, 
+    0x0020, 
+    0x0010, 
+    0x0010, 
+    0x0008, 
+    0x0008, 
+    0x0004, 
+    0x0004, 
+    0x0002, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x5c = { image_data_Font8x13_0x5c,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x5d[13] = {
+    0x0078, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0078
+};
+static const tImage Font8x13_0x5d = { image_data_Font8x13_0x5d,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x5e[13] = {
+    0x0000, 
+    0x001c, 
+    0x0014, 
+    0x0036, 
+    0x0022, 
+    0x0022, 
+    0x0063, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x5e = { image_data_Font8x13_0x5e,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x5f[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x00ff, 
+    0x0000
+};
+static const tImage Font8x13_0x5f = { image_data_Font8x13_0x5f,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x60[13] = {
+    0x0030, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x60 = { image_data_Font8x13_0x60,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x61[26] = {
+    0x0000,
+    0x0000,
+    0x0000,
+    0x003c,
+    0x0066,
+    0x0006,
+    0x003e,
+    0x0066,
+    0x0066,
+    0x003b,
+    0x0000,
+    0x0000,
+    0x0000
+};
+static const tImage Font8x13_0x61 = { image_data_Font8x13_0x61,
+    9, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x62[13] = {
+    0x0060, 
+    0x0060, 
+    0x0060, 
+    0x007c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x007c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x62 = { image_data_Font8x13_0x62,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x63[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0060, 
+    0x0060, 
+    0x0060, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x63 = { image_data_Font8x13_0x63,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x64[13] = {
+    0x0006, 
+    0x0006, 
+    0x0006, 
+    0x003e, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x64 = { image_data_Font8x13_0x64,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x65[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0066, 
+    0x007e, 
+    0x0060, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x65 = { image_data_Font8x13_0x65,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x66[13] = {
+    0x000e, 
+    0x0018, 
+    0x0018, 
+    0x007e, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x66 = { image_data_Font8x13_0x66,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x67[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x003e, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003e, 
+    0x0006, 
+    0x0066, 
+    0x003c
+};
+static const tImage Font8x13_0x67 = { image_data_Font8x13_0x67,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x68[13] = {
+    0x0060, 
+    0x0060, 
+    0x0060, 
+    0x007c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x68 = { image_data_Font8x13_0x68,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x69[13] = {
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0038, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x007e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x69 = { image_data_Font8x13_0x69,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x6a[13] = {
+    0x000c, 
+    0x0000, 
+    0x0000, 
+    0x003c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x000c, 
+    0x0078
+};
+static const tImage Font8x13_0x6a = { image_data_Font8x13_0x6a,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x6b[13] = {
+    0x0060, 
+    0x0060, 
+    0x0060, 
+    0x0066, 
+    0x006c, 
+    0x0078, 
+    0x0078, 
+    0x006c, 
+    0x006c, 
+    0x0066, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x6b = { image_data_Font8x13_0x6b,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x6c[13] = {
+    0x0038, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x007e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x6c = { image_data_Font8x13_0x6c,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x6d[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x00fc, 
+    0x00d6, 
+    0x00d6, 
+    0x00d6, 
+    0x00d6, 
+    0x00d6, 
+    0x00d6, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x6d = { image_data_Font8x13_0x6d,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x6e[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x007c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x6e = { image_data_Font8x13_0x6e,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x6f[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x6f = { image_data_Font8x13_0x6f,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x70[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x007c, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x007c, 
+    0x0060, 
+    0x0060, 
+    0x0060
+};
+static const tImage Font8x13_0x70 = { image_data_Font8x13_0x70,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x71[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x003e, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003e, 
+    0x0006, 
+    0x0006, 
+    0x0006
+};
+static const tImage Font8x13_0x71 = { image_data_Font8x13_0x71,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x72[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0036, 
+    0x0038, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0030, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x72 = { image_data_Font8x13_0x72,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x73[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x003c, 
+    0x0066, 
+    0x0070, 
+    0x003c, 
+    0x000e, 
+    0x0066, 
+    0x003c, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x73 = { image_data_Font8x13_0x73,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x74[13] = {
+    0x0000, 
+    0x0008, 
+    0x0018, 
+    0x003e, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x000e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x74 = { image_data_Font8x13_0x74,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x75[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x75 = { image_data_Font8x13_0x75,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x76[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x00c3, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003c, 
+    0x003c, 
+    0x0018, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x76 = { image_data_Font8x13_0x76,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x77[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x00c3, 
+    0x00c3, 
+    0x00db, 
+    0x005a, 
+    0x005a, 
+    0x0066, 
+    0x0066, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x77 = { image_data_Font8x13_0x77,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x78[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0066, 
+    0x0024, 
+    0x003c, 
+    0x0018, 
+    0x003c, 
+    0x0024, 
+    0x0066, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x78 = { image_data_Font8x13_0x78,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x79[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x00c3, 
+    0x0066, 
+    0x0066, 
+    0x0066, 
+    0x003c, 
+    0x003c, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0070
+};
+static const tImage Font8x13_0x79 = { image_data_Font8x13_0x79,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x7a[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x007e, 
+    0x0006, 
+    0x000c, 
+    0x0018, 
+    0x0030, 
+    0x0060, 
+    0x007e, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x7a = { image_data_Font8x13_0x7a,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x7b[13] = {
+    0x000e, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0030, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x000e
+};
+static const tImage Font8x13_0x7b = { image_data_Font8x13_0x7b,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x7c[13] = {
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010, 
+    0x0010
+};
+static const tImage Font8x13_0x7c = { image_data_Font8x13_0x7c,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x7d[13] = {
+    0x0070, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x000c, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0018, 
+    0x0070
+};
+static const tImage Font8x13_0x7d = { image_data_Font8x13_0x7d,
+    8, 13, 16};
+#endif
+
+#if (0x0 == 0x0)
+static const uint16_t image_data_Font8x13_0x7e[13] = {
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0032, 
+    0x004c, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000, 
+    0x0000
+};
+static const tImage Font8x13_0x7e = { image_data_Font8x13_0x7e,
+    8, 13, 16};
+#endif
+
+
+static const tChar Font8x13_array[] = {
+
+#if (0x0 == 0x0)
+  // character: ' '
+  {0x20, &Font8x13_0x20},
+#else
+  // character: ' ' == ''
+  {0x20, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '!'
+  {0x21, &Font8x13_0x21},
+#else
+  // character: '!' == ''
+  {0x21, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '"'
+  {0x22, &Font8x13_0x22},
+#else
+  // character: '"' == ''
+  {0x22, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '#'
+  {0x23, &Font8x13_0x23},
+#else
+  // character: '#' == ''
+  {0x23, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '$'
+  {0x24, &Font8x13_0x24},
+#else
+  // character: '$' == ''
+  {0x24, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '%'
+  {0x25, &Font8x13_0x25},
+#else
+  // character: '%' == ''
+  {0x25, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '&'
+  {0x26, &Font8x13_0x26},
+#else
+  // character: '&' == ''
+  {0x26, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '''
+  {0x27, &Font8x13_0x27},
+#else
+  // character: ''' == ''
+  {0x27, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '('
+  {0x28, &Font8x13_0x28},
+#else
+  // character: '(' == ''
+  {0x28, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: ')'
+  {0x29, &Font8x13_0x29},
+#else
+  // character: ')' == ''
+  {0x29, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '*'
+  {0x2a, &Font8x13_0x2a},
+#else
+  // character: '*' == ''
+  {0x2a, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '+'
+  {0x2b, &Font8x13_0x2b},
+#else
+  // character: '+' == ''
+  {0x2b, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: ','
+  {0x2c, &Font8x13_0x2c},
+#else
+  // character: ',' == ''
+  {0x2c, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '-'
+  {0x2d, &Font8x13_0x2d},
+#else
+  // character: '-' == ''
+  {0x2d, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '.'
+  {0x2e, &Font8x13_0x2e},
+#else
+  // character: '.' == ''
+  {0x2e, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '/'
+  {0x2f, &Font8x13_0x2f},
+#else
+  // character: '/' == ''
+  {0x2f, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '0'
+  {0x30, &Font8x13_0x30},
+#else
+  // character: '0' == ''
+  {0x30, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '1'
+  {0x31, &Font8x13_0x31},
+#else
+  // character: '1' == ''
+  {0x31, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '2'
+  {0x32, &Font8x13_0x32},
+#else
+  // character: '2' == ''
+  {0x32, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '3'
+  {0x33, &Font8x13_0x33},
+#else
+  // character: '3' == ''
+  {0x33, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '4'
+  {0x34, &Font8x13_0x34},
+#else
+  // character: '4' == ''
+  {0x34, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '5'
+  {0x35, &Font8x13_0x35},
+#else
+  // character: '5' == ''
+  {0x35, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '6'
+  {0x36, &Font8x13_0x36},
+#else
+  // character: '6' == ''
+  {0x36, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '7'
+  {0x37, &Font8x13_0x37},
+#else
+  // character: '7' == ''
+  {0x37, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '8'
+  {0x38, &Font8x13_0x38},
+#else
+  // character: '8' == ''
+  {0x38, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '9'
+  {0x39, &Font8x13_0x39},
+#else
+  // character: '9' == ''
+  {0x39, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: ':'
+  {0x3a, &Font8x13_0x3a},
+#else
+  // character: ':' == ''
+  {0x3a, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: ';'
+  {0x3b, &Font8x13_0x3b},
+#else
+  // character: ';' == ''
+  {0x3b, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '<'
+  {0x3c, &Font8x13_0x3c},
+#else
+  // character: '<' == ''
+  {0x3c, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '='
+  {0x3d, &Font8x13_0x3d},
+#else
+  // character: '=' == ''
+  {0x3d, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '>'
+  {0x3e, &Font8x13_0x3e},
+#else
+  // character: '>' == ''
+  {0x3e, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '?'
+  {0x3f, &Font8x13_0x3f},
+#else
+  // character: '?' == ''
+  {0x3f, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '\x0040'
+  {0x40, &Font8x13_0x40},
+#else
+  // character: '\x0040' == ''
+  {0x40, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'A'
+  {0x41, &Font8x13_0x41},
+#else
+  // character: 'A' == ''
+  {0x41, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'B'
+  {0x42, &Font8x13_0x42},
+#else
+  // character: 'B' == ''
+  {0x42, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'C'
+  {0x43, &Font8x13_0x43},
+#else
+  // character: 'C' == ''
+  {0x43, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'D'
+  {0x44, &Font8x13_0x44},
+#else
+  // character: 'D' == ''
+  {0x44, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'E'
+  {0x45, &Font8x13_0x45},
+#else
+  // character: 'E' == ''
+  {0x45, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'F'
+  {0x46, &Font8x13_0x46},
+#else
+  // character: 'F' == ''
+  {0x46, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'G'
+  {0x47, &Font8x13_0x47},
+#else
+  // character: 'G' == ''
+  {0x47, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'H'
+  {0x48, &Font8x13_0x48},
+#else
+  // character: 'H' == ''
+  {0x48, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'I'
+  {0x49, &Font8x13_0x49},
+#else
+  // character: 'I' == ''
+  {0x49, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'J'
+  {0x4a, &Font8x13_0x4a},
+#else
+  // character: 'J' == ''
+  {0x4a, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'K'
+  {0x4b, &Font8x13_0x4b},
+#else
+  // character: 'K' == ''
+  {0x4b, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'L'
+  {0x4c, &Font8x13_0x4c},
+#else
+  // character: 'L' == ''
+  {0x4c, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'M'
+  {0x4d, &Font8x13_0x4d},
+#else
+  // character: 'M' == ''
+  {0x4d, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'N'
+  {0x4e, &Font8x13_0x4e},
+#else
+  // character: 'N' == ''
+  {0x4e, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'O'
+  {0x4f, &Font8x13_0x4f},
+#else
+  // character: 'O' == ''
+  {0x4f, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'P'
+  {0x50, &Font8x13_0x50},
+#else
+  // character: 'P' == ''
+  {0x50, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'Q'
+  {0x51, &Font8x13_0x51},
+#else
+  // character: 'Q' == ''
+  {0x51, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'R'
+  {0x52, &Font8x13_0x52},
+#else
+  // character: 'R' == ''
+  {0x52, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'S'
+  {0x53, &Font8x13_0x53},
+#else
+  // character: 'S' == ''
+  {0x53, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'T'
+  {0x54, &Font8x13_0x54},
+#else
+  // character: 'T' == ''
+  {0x54, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'U'
+  {0x55, &Font8x13_0x55},
+#else
+  // character: 'U' == ''
+  {0x55, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'V'
+  {0x56, &Font8x13_0x56},
+#else
+  // character: 'V' == ''
+  {0x56, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'W'
+  {0x57, &Font8x13_0x57},
+#else
+  // character: 'W' == ''
+  {0x57, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'X'
+  {0x58, &Font8x13_0x58},
+#else
+  // character: 'X' == ''
+  {0x58, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'Y'
+  {0x59, &Font8x13_0x59},
+#else
+  // character: 'Y' == ''
+  {0x59, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'Z'
+  {0x5a, &Font8x13_0x5a},
+#else
+  // character: 'Z' == ''
+  {0x5a, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '['
+  {0x5b, &Font8x13_0x5b},
+#else
+  // character: '[' == ''
+  {0x5b, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '\'
+  {0x5c, &Font8x13_0x5c},
+#else
+  // character: '\' == ''
+  {0x5c, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: ']'
+  {0x5d, &Font8x13_0x5d},
+#else
+  // character: ']' == ''
+  {0x5d, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '^'
+  {0x5e, &Font8x13_0x5e},
+#else
+  // character: '^' == ''
+  {0x5e, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '_'
+  {0x5f, &Font8x13_0x5f},
+#else
+  // character: '_' == ''
+  {0x5f, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '`'
+  {0x60, &Font8x13_0x60},
+#else
+  // character: '`' == ''
+  {0x60, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'a'
+  {0x61, &Font8x13_0x61},
+#else
+  // character: 'a' == ''
+  {0x61, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'b'
+  {0x62, &Font8x13_0x62},
+#else
+  // character: 'b' == ''
+  {0x62, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'c'
+  {0x63, &Font8x13_0x63},
+#else
+  // character: 'c' == ''
+  {0x63, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'd'
+  {0x64, &Font8x13_0x64},
+#else
+  // character: 'd' == ''
+  {0x64, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'e'
+  {0x65, &Font8x13_0x65},
+#else
+  // character: 'e' == ''
+  {0x65, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'f'
+  {0x66, &Font8x13_0x66},
+#else
+  // character: 'f' == ''
+  {0x66, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'g'
+  {0x67, &Font8x13_0x67},
+#else
+  // character: 'g' == ''
+  {0x67, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'h'
+  {0x68, &Font8x13_0x68},
+#else
+  // character: 'h' == ''
+  {0x68, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'i'
+  {0x69, &Font8x13_0x69},
+#else
+  // character: 'i' == ''
+  {0x69, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'j'
+  {0x6a, &Font8x13_0x6a},
+#else
+  // character: 'j' == ''
+  {0x6a, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'k'
+  {0x6b, &Font8x13_0x6b},
+#else
+  // character: 'k' == ''
+  {0x6b, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'l'
+  {0x6c, &Font8x13_0x6c},
+#else
+  // character: 'l' == ''
+  {0x6c, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'm'
+  {0x6d, &Font8x13_0x6d},
+#else
+  // character: 'm' == ''
+  {0x6d, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'n'
+  {0x6e, &Font8x13_0x6e},
+#else
+  // character: 'n' == ''
+  {0x6e, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'o'
+  {0x6f, &Font8x13_0x6f},
+#else
+  // character: 'o' == ''
+  {0x6f, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'p'
+  {0x70, &Font8x13_0x70},
+#else
+  // character: 'p' == ''
+  {0x70, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'q'
+  {0x71, &Font8x13_0x71},
+#else
+  // character: 'q' == ''
+  {0x71, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'r'
+  {0x72, &Font8x13_0x72},
+#else
+  // character: 'r' == ''
+  {0x72, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 's'
+  {0x73, &Font8x13_0x73},
+#else
+  // character: 's' == ''
+  {0x73, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 't'
+  {0x74, &Font8x13_0x74},
+#else
+  // character: 't' == ''
+  {0x74, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'u'
+  {0x75, &Font8x13_0x75},
+#else
+  // character: 'u' == ''
+  {0x75, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'v'
+  {0x76, &Font8x13_0x76},
+#else
+  // character: 'v' == ''
+  {0x76, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'w'
+  {0x77, &Font8x13_0x77},
+#else
+  // character: 'w' == ''
+  {0x77, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'x'
+  {0x78, &Font8x13_0x78},
+#else
+  // character: 'x' == ''
+  {0x78, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'y'
+  {0x79, &Font8x13_0x79},
+#else
+  // character: 'y' == ''
+  {0x79, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: 'z'
+  {0x7a, &Font8x13_0x7a},
+#else
+  // character: 'z' == ''
+  {0x7a, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '{'
+  {0x7b, &Font8x13_0x7b},
+#else
+  // character: '{' == ''
+  {0x7b, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '|'
+  {0x7c, &Font8x13_0x7c},
+#else
+  // character: '|' == ''
+  {0x7c, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '}'
+  {0x7d, &Font8x13_0x7d},
+#else
+  // character: '}' == ''
+  {0x7d, &Font8x13_0x},
+#endif
+
+#if (0x0 == 0x0)
+  // character: '~'
+  {0x7e, &Font8x13_0x7e}
+#else
+  // character: '~' == ''
+  {0x7e, &Font8x13_0x}
+#endif
+
+};
+
+
+const tFont Font8x13 = { 95, Font8x13_array };
